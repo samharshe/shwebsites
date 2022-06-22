@@ -1,0 +1,45 @@
+* {
+    background-color: grey;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#cardRows {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.imageSquare {
+    background-color: red;
+    width: 75px;
+    height: 75px;
+    border: 1px solid transparent;
+}
+
+button {
+    max-width: 25%;
+    border: 1px solid black;
+} 
+
+.card p {
+    text-align: center;
+}
+
+.card:hover {
+    color: white;
+}
+
+.imageSquare:hover {
+    border: 1px solid white;
+}

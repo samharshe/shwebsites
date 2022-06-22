@@ -1,0 +1,20 @@
+#pageDiv {
+    background-color: #202124;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+li {
+    display: inline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

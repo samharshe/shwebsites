@@ -1,0 +1,5 @@
+notes:
+1. this was the best yet by a huge margin.
+2. determining how to layer containers is getting much easier.
+3. I'll have to learn the finer points of CSS, but I am getting quicker at defining structure, which is good.
+4. need to learn to fix footer to the floor.

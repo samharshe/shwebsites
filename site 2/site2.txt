@@ -1,0 +1,5 @@
+google.com
+
+notes: 
+• JUSTIFY CONTENT allocates space along the main axis
+• ALIGN ITEMS is analogous property for cross-axis

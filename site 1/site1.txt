@@ -1,0 +1,4 @@
+notes:
+• I have to review flexbox
+• I have to pay closer attention to which elements are nested inside which
+• 

@@ -1,0 +1,6 @@
+https://www.netflix.com/browse (the "who's watching" screen)
+
+notes:
+1. about as good as I could've hoped in 10 minutes.
+2. need to learn about hovering effects so that I can get the image but not the card to take a white border when I hover over the card.
+3. currently, this does not scale at all, so I need to learn to make these sites flexible to size.
