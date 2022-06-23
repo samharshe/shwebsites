@@ -42,10 +42,6 @@ li {
     font-weight: bold;
 }
 
-.answer {
-    padding-left: 2em;
-}
-
 #gallery {
     display: flex;
     flex-direction: row;
@@ -85,10 +81,6 @@ li {
 
     #q-a {
         width: 90%;
-    }
-
-    .answer {
-        padding-left: 0;
     }
 }
 
