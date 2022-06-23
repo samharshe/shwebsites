@@ -40,8 +40,8 @@ function themeRotator() {
 
 // themeRotator()
 
-const styleCssLink = document.getElementById("style-css-link")
-const styleJsScript = document.getElementById("style-js-script")
+const styleCssLink = document.getElementById('style-css-link')
+const styleJsScript = document.getElementById('style-js-script')
 
 styleCssLink.href = 'worm/worm.css'
 styleJsScript.src = 'worm/worm.js'
