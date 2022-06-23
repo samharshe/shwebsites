@@ -47,7 +47,8 @@ li {
 }
 
 .question {
-    text-decoration: underline;
+    font-weight: bold;
+    line-height: 2em;;
 }
 
 .answer {
@@ -61,7 +62,6 @@ li {
     width: 75%;
     justify-content: space-around;
     margin: 2em auto;
-
 }
 
 #q-a {
@@ -70,5 +70,16 @@ li {
 }
 
 #about {
-    margin: 3em auto;
+    margin: 3.5em auto;
+}
+
+#brag-text {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+#brag {
+    padding: 0 0 1.5em 0;
 }

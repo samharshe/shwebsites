@@ -3,20 +3,48 @@
   --white: white;
   --green: #04643c;
   --gold: #a37c2e;
+  --silver: #6b6a6a;
   --serif:'Cormorant Garamond',l serif;
   --sans-serif: 'Inter', sans-serif;;
 }
 
 * {
+    transition: all 0.3s ease-out;
+}
+
+body {
     background-color: var(--black);
     color: var(--white);
     font-family: var(--sans-serif);
-    transition: all 0.3s ease-out;
+}
+
+a {
+    color: var(--white);
 }
 
 h1 {
     font-family: var(--serif);
     text-transform: uppercase;
+}
+
+#bottom-block {
+    padding: 2em 0;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+#bottom-block a {
+    color: var(--black);
+}
+
+#brag-text {
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    color: transparent;
+    background-image: url("rolex_files/silver.jpeg");
+    color: var(--black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* https://www.rolex.com/en-us */
