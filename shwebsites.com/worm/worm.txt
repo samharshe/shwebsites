@@ -1,0 +1,1 @@
+need to add hover effect for cards and title

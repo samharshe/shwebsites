@@ -1,0 +1,22 @@
+:root {
+    --mono: 'IBM Plex Mono', monospace;
+    --sans-serif: 'Work Sans', sans-serif;
+    --nasa-red: #ed1c24;
+}
+
+body {
+    font-family: var(--mono);
+}
+
+a {
+    color: black;
+}
+
+#title {
+    color: var(--nasa-red);
+    font-family: var(--sans-serif);
+}
+
+#subtitle {
+    font-weight: 400;
+}
