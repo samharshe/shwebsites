@@ -1,0 +1,22 @@
+:root {
+  --black: black;
+  --white: white;
+  --green: #04643c;
+  --gold: #a37c2e;
+  --serif:'Cormorant Garamond',l serif;
+  --sans-serif: 'Inter', sans-serif;;
+}
+
+* {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: var(--sans-serif);
+    transition: all 0.3s ease-out;
+}
+
+h1 {
+    font-family: var(--serif);
+    text-transform: uppercase;
+}
+
+/* https://www.rolex.com/en-us */

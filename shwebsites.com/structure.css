@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 1em 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    text-align: center;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+footer nav ul li {
+    display: inline;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    margin: 1em;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid transparent;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.q-a-pair {
+    text-align: left;
+    margin: .5em auto;
+}
+
+.question {
+    text-decoration: underline;
+}
+
+.answer {
+    padding-left: 2em;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-around;
+    margin: 2em auto;
+
+}
+
+#q-a {
+    width: 75%;
+    margin: auto;
+}
+
+#about {
+    margin: 3em auto;
+}
