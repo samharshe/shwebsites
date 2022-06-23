@@ -1,15 +1,15 @@
-function rotating_sign(){
+function rotatingSign(){
     const title = "shwebsites • rhymes with \"websites\" • "
-    const title_length = title.length
-    const num_characters_to_show = 25
+    const titleLength = title.length
+    const numCharactersToShow = 25
 
-    let title_string_builder = ""
+    let titleStringBuilder = ""
     let index = 0;
 
     setInterval(function(){
-        title_string_builder = title.substring(index, Math.max(index+num_characters_to_show, title_length)) + title.substring(0, Math.max(index+title_length-num_characters_to_show,0))
+        titleStringBuilder = title.substring(index, Math.max(index+numCharactersToShow, titleLength)) + title.substring(0, Math.max(index+titleLength-numCharactersToShow,0))
 
-        document.title = title_string_builder
+        document.title = titleStringBuilder
         if(index == 38){
             index = 0;
         } else {
@@ -18,4 +18,30 @@ function rotating_sign(){
     }, 1000);
 }
 
-rotating_sign();
+rotatingSign()
+
+function themeRotator() {
+    const themes = ["rolex", "subway", "worm"]
+    let index = 0
+    let currentTheme = ""
+    setInterval(function(){
+    
+        const styleCssLink = document.getElementById("style-css-link")
+        const styleJsScript = document.getElementById("style-js-script")
+
+        currentTheme = themes[index%3]
+        styleCssLink.href = `${currentTheme}/${currentTheme}.css`
+        styleJsScript.src = `${currentTheme}/${currentTheme}.js`
+        console.log(styleJsScript.src)
+
+        index++
+    }, 2000)
+}
+
+// themeRotator()
+
+const styleCssLink = document.getElementById("style-css-link")
+const styleJsScript = document.getElementById("style-js-script")
+
+styleCssLink.href = 'worm/worm.css'
+styleJsScript.src = 'worm/worm.js'

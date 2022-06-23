@@ -1,6 +1,34 @@
 looks to copy:
-    NASA worm
-    Candyland
-    MOMA
+    + NASA worm
+    x Candyland (little visual guidance online)
+    x MOMA (the most distinctive trait of their website is their typeface, which I have no access to)
+    x Louvre (also too reliant on typeface)
     Nike
-    Rolex
+    + Rolex
+    + Subway
+    Toms
+    Ikea
+    Cheetos
+    Off-White
+    Vans
+    Ferrari
+    Pepsi
+    Google
+    BMW
+    Target
+    Dropbox
+    Star Wars
+    Chipotle
+    Frosted Flakes
+    GTA
+    Up
+    Super Mario
+    Flappy bird
+    Cinnamon Toast Crunch
+    Honey Nut Cheerios
+    Peter Pan
+    Toy Story
+    Dollar bill
+    Monopoly
+    Penguin
+    

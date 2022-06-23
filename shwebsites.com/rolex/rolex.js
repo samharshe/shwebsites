@@ -20,3 +20,6 @@ header.addEventListener("mouseout", function(){
     subtitle.style.color = "var(--white)";
     console.log("out!");
 });
+
+const bragText = document.getElementById("brag-text")
+bragText.innerHTML = "<a href=\"https://rolex.co\">shwebsites are crafted with scrupulous attention to detail.</a>"

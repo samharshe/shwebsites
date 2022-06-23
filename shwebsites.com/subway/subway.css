@@ -1,0 +1,52 @@
+:root {
+    --black: black;
+    --white: white;
+    --subway-yellow: #fcb401;
+    --subway-green: #018d2b;
+    --title: 'Rubik', sans-serif;
+    --sans: 'Lato', sans-serif;
+}
+
+* {
+    font-family: var(--sans);
+}
+
+#title {
+    font-family: var(--title);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--subway-green);
+}
+
+#title span {
+    color: var(--subway-yellow);
+}
+
+#subtitle {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#brag-text a {
+    font-family: var(--title);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--subway-green);
+}
+
+#brag-text a span {
+    color: var(--subway-yellow);
+}
+
+.site-name {
+    background-color: var(--subway-green);
+    color: var(--white);
+    padding: 1em 0;
+    width: 150px;
+    border-radius: .5rem;
+    margin: 0 auto;
+}
+
+a {
+    color: var(--white);
+}

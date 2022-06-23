@@ -10,46 +10,36 @@ h1, h2, h3, h4, h5, p {
     text-align: center;
 }
 
-h1 {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-}
-
 h5 {
-    display: block;
     font-size: 0.83em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 a {
     text-decoration: none;
-    font-size: .9em;
 }
 
 li {
     list-style: none;
 }
 
+.card {
+    margin: 1em;
+}
+
 .thumbnail {
-    width: 200px;
     height: 200px;
+    width: 200px;
     background-color: aquamarine;
     border: 3px solid transparent;
-    margin: 20px;
     border-radius: 4px;
 }
 
 .q-a-pair {
-    text-align: left;
-    margin: .5em auto;
+    margin: 1em 0;
 }
 
 .question {
     font-weight: bold;
-    line-height: 2em;;
 }
 
 .answer {
@@ -62,7 +52,7 @@ li {
     flex-wrap: wrap;
     width: 75%;
     justify-content: space-around;
-    margin: 2em auto;
+    margin: auto;
 }
 
 #q-a {
@@ -71,6 +61,7 @@ li {
 }
 
 #about {
+    padding: 0 1em;
     margin: 3.5em auto;
 }
 
@@ -78,9 +69,28 @@ li {
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: 900;
-    letter-spacing: 0.05em;
 }
 
-#brag {
-    padding: 0 0 1.5em 0;
+#bottom-block {
+    border-top: 1px solid black;
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 768px) {
+    #gallery {
+        width: 90%;
+    }
+
+    #q-a {
+        width: 90%;
+    }
+
+    .answer {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
 }
