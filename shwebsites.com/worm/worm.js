@@ -1,2 +1,2 @@
-const bragText = document.getElementById("brag-text")
-bragText.innerHTML = "<a href=\"https://nasa.gov\">for the benefit of all web-nauts.</a>"
+const googleFontsSpecificfHref = "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+document.getElementById('google-fonts-specific').href = googleFontsSpecificfHref

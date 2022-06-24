@@ -1,11 +1,11 @@
 :root {
-    --mono: 'IBM Plex Mono', monospace;
-    --sans-serif: 'Work Sans', sans-serif;
+    --serif: 'Roboto Slab', serif; 
+    --sans-serif: ;
     --nasa-red: #ed1c24;
 }
 
 body {
-    font-family: var(--mono);
+    font-family: var(--serif);
 }
 
 a {
