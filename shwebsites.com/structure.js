@@ -21,7 +21,7 @@ function rotatingSign(){
 rotatingSign()
 
 function themeRotator() {
-    const themes = ["rolex", "worm"]
+    const themes = ["rol", "wor"]
     let index = 0
     let currentTheme = ""
     setInterval(function(){
