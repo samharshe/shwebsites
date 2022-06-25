@@ -21,27 +21,18 @@ function rotatingSign(){
 rotatingSign()
 
 function themeRotator() {
-    const themes = ["rolex", "subway", "worm"]
+    const themes = ["rolex", "worm"]
     let index = 0
     let currentTheme = ""
     setInterval(function(){
     
         const styleCssLink = document.getElementById("style-css-link")
-        const styleJsScript = document.getElementById("style-js-script")
 
-        currentTheme = themes[index%3]
+        currentTheme = themes[index%2]
         styleCssLink.href = `${currentTheme}/${currentTheme}.css`
-        styleJsScript.src = `${currentTheme}/${currentTheme}.js`
-        console.log(styleJsScript.src)
 
         index++
     }, 2000)
 }
 
-// themeRotator()
-
-const styleCssLink = document.getElementById('style-css-link')
-const styleJsScript = document.getElementById('style-js-script')
-
-styleCssLink.href = 'worm/worm.css'
-styleJsScript.src = 'worm/worm.js'
+themeRotator()
