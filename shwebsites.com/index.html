@@ -23,7 +23,7 @@
     </header>
 
     <main>
-        <div id="top-block">
+        <div class="block">
             <section id="gallery">
                 <div class="row">
                     <div class="card">
@@ -64,9 +64,9 @@
             </section>
         </div>
 
-        <div id="bottom-block">
-
+        <div class="block">
             <section id="q-a">
+                <h5>Qs & As.</h5>
                 <ul>
                     <li>
                         <div class="q-a-pair">
@@ -88,12 +88,39 @@
                     </li>
                 </ul>
             </section>
+        </div>
     
+        <div class="block">
             <section id="form">
                 <form action="">
+                    <h5>Get in contact.</h5>
+                    <div>
+                        <label for="name-input">Name.</label>
+                        <input type="text" name="name" id="name-input" required>    
+                    </div>
+                    <div>
+                        <label for="email-input">Email.</label>
+                        <input type="text" name="email" id="email-input" required>    
+                    </div>
+                    <div>
+                        <input type="radio" name="site-type" id="business-radio" value="business">
+                        <label for="business-radio">Business site.</label>
+                        <input type="radio" name="site-type" id="personal-radio" value="personal">
+                        <label for="personal-radio">Personal portfolio site.</label>
+                    </div>
+                    <div>
+                        <label for="what-do-you-want-input">In as many or as few words as you want, explain what you want.</label>
+                        <textarea name="what-do-you-want" id="what-do-you-want-input" required></textarea>
+                    </div>
+                    <div>
+                        <label for="any-other-input">Any other comments?</label>
+                        <textarea name="any-other" id="any-other-input" required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit.">
+                    </div>
                 </form>
             </section>
-    
         </div>
     </main>        
 
