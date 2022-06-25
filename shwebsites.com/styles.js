@@ -1,4 +1,3 @@
-// let currentTheme = document.getElementById("style-css-link").href
 console.log(document.getElementById("style-css-link"))
 
 let header = document.querySelector("header")
