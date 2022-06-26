@@ -22,6 +22,7 @@ rotatingSign()
 
 const themes = ["rol", "wor"]
 const styleCssLink = document.getElementById("style-css-link")
+styleCssLink.href = `${themes[1]}/${themes[1]}.css`
 
 function themeRotator() {
     let index = 0

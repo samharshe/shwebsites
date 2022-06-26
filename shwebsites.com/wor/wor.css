@@ -1,11 +1,16 @@
 :root {
-    --serif: 'Roboto Slab', serif; 
-    --sans-serif: ;
+    --monospace: 'Roboto Mono', monospace;; 
+    --sans-serif: 'Source Sans Pro', sans-serif;
+    --display: 'Monoton', cursive;
     --nasa-red: #ed1c24;
 }
 
 body {
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
+}
+
+h5, #about {
+    font-family: var(--monospace)
 }
 
 a {
@@ -14,7 +19,7 @@ a {
 
 #title {
     color: var(--nasa-red);
-    font-family: var(--sans-serif);
+    font-family: var(--display);
 }
 
 #subtitle {
