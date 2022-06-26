@@ -20,14 +20,13 @@ function rotatingSign(){
 
 rotatingSign()
 
+const themes = ["rol", "wor"]
+const styleCssLink = document.getElementById("style-css-link")
+
 function themeRotator() {
-    const themes = ["rol", "wor"]
     let index = 0
     let currentTheme = ""
     setInterval(function(){
-    
-        const styleCssLink = document.getElementById("style-css-link")
-
         currentTheme = themes[index%2]
         styleCssLink.href = `${currentTheme}/${currentTheme}.css`
 
@@ -35,4 +34,4 @@ function themeRotator() {
     }, 2000)
 }
 
-themeRotator()
+// themeRotator()
